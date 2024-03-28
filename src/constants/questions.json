@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What is the largest planet in our solar system",
+    "options": [
+      { "text": "Saturn", "isCorrect": false },
+      { "text": "Mars", "isCorrect": false },
+      { "text": "Earth", "isCorrect": false },
+      { "text": "Jupiter", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "What is the capital city of India",
+    "options": [
+      { "text": "Delhi", "isCorrect": true },
+      { "text": "Jaipur", "isCorrect": false },
+      { "text": "Hyderabad", "isCorrect": false },
+      { "text": "Chennai", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which is the Major river in India",
+    "options": [
+      { "text": "Narmada", "isCorrect": false },
+      { "text": "Godavari", "isCorrect": false },
+      { "text": "Ganga", "isCorrect": true },
+      { "text": "Brahmaputra", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Who is the currrent PM of India",
+    "options": [
+      { "text": "Amit Shah", "isCorrect": false },
+      { "text": "Manmohan singh", "isCorrect": false },
+      { "text": "Narendra Modi", "isCorrect": true },
+      { "text": "S Jaishankar", "isCorrect": false }
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.qtn-container {
+  margin-bottom: 30px;
+  width: 650px;
+  border-radius: 20px;
+  background-color: #888;
+  color: #fff;
+  padding: 20px;
+}
+
+.btn-options {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+.btn-options button{
+  border: 1px solid #040a0ebd;
+  margin: 10px;
+  width: 150px;
+}
+.btn-options button:hover{
+  background: #1f9644bd;
+  color: #fff;
+  border: none;
+}
+
+.btn-box button {
+  border: 1px solid #040a0ebd;
+}
+.btn-box button:hover {
+  background:  #040a0ebd;
+  color: #fff;
+  border: none;
+}
+
+.btn-reset:hover {
+  background:  #12649bbd;
+  color: #fff;
+  border: none;
+}
+.qstn-list {
+  list-style: none;
+}
+.qstn-list[data-correct ="true"] {
+  list-style: none;
+  color: rgb(11, 92, 53);
+  font-size: x-large;
+}
+
+.qstn-list[data-correct ="false"] {
+  list-style: none;
+  color: rgb(137, 16, 16);
+  font-style: italic;
+}
